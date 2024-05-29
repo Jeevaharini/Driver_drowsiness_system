@@ -11,8 +11,8 @@ from tkinter import ttk
 import threading
 
 # Initialize Spotify client with necessary scopes
-sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id='ff002ee7920145139e43e51b960af33d',
-                                               client_secret='dc05d970557346a5a01c19d6c97c417b',
+sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id='ff00xxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+                                               client_secret='dcxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
                                                redirect_uri='http://localhost:8888/callback',
                                                scope='user-modify-playback-state user-read-playback-state'))
 
