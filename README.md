@@ -1,16 +1,16 @@
-Drowsiness Detection System with Spotify Integration
+# Drowsiness Detection System with Spotify Integration
 
-Overview
+## Overview
 
 This project is a drowsiness detection system that uses computer vision to monitor the user's eye aspect ratio (EAR) to detect drowsiness. When drowsiness is detected, the system plays a specific song on Spotify. The project leverages OpenCV for real-time video processing, dlib for facial landmark detection, and the Spotify API for music playback.
 
- Features
+ ## Features
 
 - Real-time Drowsiness Detection: Uses a webcam to monitor the user's eyes and calculate the EAR.
 - Spotify Integration: Plays a pre-selected song on Spotify when drowsiness is detected.
 -Graphical User Interface (GUI): Simple interface to start and stop the detection process.
 
- Requirements
+ ## Requirements
 
 - Python 3.6 or higher
 - OpenCV
@@ -20,7 +20,7 @@ This project is a drowsiness detection system that uses computer vision to monit
 - spotipy
 - tkinter
 
- Setup Instructions
+ ## Setup Instructions
 
  1. Download and Install Python
 Ensure that you have Python 3.6 or higher installed on your system. You can download it from [python.org](https://www.python.org/).
@@ -46,7 +46,7 @@ Download the `shape_predictor_68_face_landmarks.dat` file from the following Goo
  5. Update the Code with Your Credentials
 Replace the placeholders in the `SpotifyOAuth` initialization with your Spotify API credentials.
 
- How to Run the Project in IDLE
+ ## How to Run the Project in IDLE
 
 1. Open IDLE:
     - Launch IDLE from your Python installation.
@@ -66,7 +66,7 @@ Replace the placeholders in the `SpotifyOAuth` initialization with your Spotify 
 6. Quit Application:
     - Click on the "Quit" button to close the application.
 
- How It Works
+ ## How It Works
 
  Drowsiness Detection
 
